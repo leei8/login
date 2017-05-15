@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Registro</title>
+</head>
+<body>
+	<form action="registrarSocio.jsp" method="post">
+		Nombre: <input type="text" name="nombre" id="nombre" /> <br>
+		Apellido: <input type="text" name="apellido" id="apellido" /> <br>
+		Direccion: <input type="text" name="direccion" id="direccion" /> <br>
+		Poblacion: <input type="text" name="poblacion" id="poblacion" /> <br>
+		Provincia: <select name="provincia" id="provincia">
+					<option value="ARABA">ARABA</option>
+					<option value="BIZKAIA">BIZKAIA</option>
+					<option value="GIPUZKOA">GIPUZKOA</option>
+				   </select><br> 
+		DNI: <input type="text" name="dni" id="dni" /> <br> 
+		<input type="submit" value="Registrar" name="login" id="Login" />
+	</form>
+<br><br>	
+<form action="verSocios.jsp" method="get">
+<input type="submit" value="Ver socios" name="verSocios" id="verSocios" />
+</form>
+</body>
+</html>
